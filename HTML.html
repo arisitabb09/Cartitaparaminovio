@@ -1,0 +1,174 @@
+HTML
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,0"
+
+<title>Para mi bebé ❤️</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Corazones -->
+<div id="hearts"></div>
+
+<!-- Música -->
+<audio id="music" loop>
+    <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+<!-- PORTADA -->
+<section class="hero" id="inicio">
+
+<div class="glass">
+
+<p class="mini">Hecho con todo mi corazón</p>
+
+<h1>Para el amor de mi vida ❤️</h1>
+
+<p>
+No importa cuántas palabras existan...
+jamás serán suficientes para decirte cuánto te amo.
+</p>
+
+<button onclick="abrirCarta()">
+Abrir mi corazón 💌
+</button>
+
+</div>
+
+</section>
+
+
+<!-- CARTA -->
+<section class="carta oculto" id="carta">
+
+<h2>Mi chiquito bello </h2>
+
+<div class="paper">
+
+<p>
+Desde que llegaste a mi vida muchas cosas cambiaron.
+Sin darme cuenta te convertiste en mi persona favorita,
+en quien pienso cuando algo bonito me pasa
+y en quien quiero abrazar cuando tengo un día difícil.
+</p>
+
+<p>
+Gracias por cada risa, cada llamada,
+cada momento y cada mensada que solamente nosotros entendemos.
+Amo construir recuerdos contigo.
+</p>
+
+<p>
+No prometo que todos los días sean perfectos,
+pero sí prometo amarte con un corazón sincero.
+Porque si algo tengo claro;
+es que te elegiría una y mil veces.
+</p>
+
+<p class="firma">
+Con amor,<br>
+Ari ❤️
+</p>
+
+</div>
+
+<button onclick="mostrarRecuerdos()">
+Quiero enseñarte algo 📸
+</button>
+
+</section>
+
+
+<!-- FOTOS -->
+<section class="recuerdos oculto" id="recuerdos">
+
+<h2>Nuestros recuerdos 💗</h2>
+
+<div class="galeria">
+
+<div class="polaroid">
+<img src="fotos/foto1.jpg">
+<p>Nuestro día favorito</p>
+</div>
+
+<div class="polaroid">
+<img src="fotos/foto2.jpg">
+<p>Una sonrisa contigo</p>
+</div>
+
+<div class="polaroid">
+<img src="fotos/foto3.jpg">
+<p>Otro recuerdo hermoso</p>
+</div>
+
+</div>
+
+<button onclick="mostrarRazones()">
+Hay más... 💞
+</button>
+
+</section>
+
+
+<!-- RAZONES -->
+<section class="razones oculto" id="razones">
+
+<h2>10 cosas que amo de ti ❤️</h2>
+
+<div class="lista">
+
+<div>💗 Tu sonrisa</div>
+<div>💗 Cómo me haces reír</div>
+<div>💗 Tus abrazos</div>
+<div>💗 Tu forma de mirarme</div>
+<div>💗 Tus besos</div>
+<div>💗 Tu paciencia conmigo</div>
+<div>💗 Escuchar tu voz</div>
+<div>💗 Sentirme segura contigo</div>
+<div>💗 Las salidas juntos</div>
+<div>💗 Simplemente tú</div>
+
+</div>
+
+<button onclick="finalAmor()">
+Una última cosa... 🌷
+</button>
+
+</section>
+
+
+<!-- FINAL -->
+<section class="final oculto" id="final">
+
+<div class="glass">
+
+<h1>Te amo muchisimo mi vida ❤️</h1>
+
+<p>
+Si existieran mil vidas,
+en las mil volvería a encontrarte.
+</p>
+
+<h2>¿Sabes cuánto te amo?</h2>
+
+<div id="contador">0%</div>
+
+<button onclick="llenarAmor()">
+Pícale oki
+</button>
+
+<p id="mensajeFinal"></p>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
